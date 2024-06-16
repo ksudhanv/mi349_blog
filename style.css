@@ -1,0 +1,78 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: .5;
+}
+body{
+    background-color: #b4c5e4;
+}
+
+a:active {
+    text-decoration: none;
+}
+.nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #b4c5e4;
+}
+#contact-form{
+   display: flex;
+}
+.contact-form-section{
+    padding: 5px;
+}
+.The_One_Piece{
+    float: right;
+    width: 500px;
+    padding: 10px;
+}
+.op_coverart{
+    margin-left: 70vw;
+}
+.elden{
+    float: left;
+    width: 500px;
+    padding: 10px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.desc{
+    padding: 15px;
+}
+.title{
+    text-align: center;
+}
+.op-table th{
+    padding: 5px;
+}
+.op-table{
+    text-align: center;
+    padding-left: 20vw;
+}
+#newsletter{
+    padding-top: 15vh;
+    align-content: center;
+}
+.me-fr{
+    height: 50vh;
+}
